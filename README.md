@@ -14,15 +14,15 @@ composer require webapp
 ```node
 php -S 127.0.0.1:8000 -t public
 ```
-![image](https://user-images.githubusercontent.com/28044809/176267899-69580c7d-5928-4b6f-a602-ff3c81ca3b31.png)
-
 
 ```node
 http://127.0.0.1:8000/
 ```
 adresine gidiyoruz.
 
+![image](https://user-images.githubusercontent.com/28044809/176267899-69580c7d-5928-4b6f-a602-ff3c81ca3b31.png)
 
+<h3 align="center">Controller</h3>
 ```node
 1- https://symfony.com/doc/5.4/controller.html#a-basic-controller
 ```
