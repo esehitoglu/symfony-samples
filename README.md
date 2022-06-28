@@ -2,6 +2,7 @@
 
 <h2 align="center">https://symfony.com/doc/5.4/setup.html</h2>
 
+install Composer
 
 ```javascript
 composer create-project symfony/skeleton:"^5.4" my_project_directory
