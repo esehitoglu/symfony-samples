@@ -20,7 +20,7 @@ class LuckyController
     }
 
     /**
-     * @Route("/books/", name="app_lucky_number")
+     * @Route("/books/", name="app_get_books")
      */
     public function getBooks(): Response
     {
@@ -31,9 +31,9 @@ class LuckyController
    		
         );
     }
-
+ 
     /**
-     * @Route("/book/{id}", name="app_lucky_number")
+     * @Route("/book/{id}", name="app_get_book")
      */
     public function getBook(int $id): Response
     {
