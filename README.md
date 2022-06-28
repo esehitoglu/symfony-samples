@@ -23,6 +23,6 @@ adresine gidiyoruz.
 
 
 ```node
-https://symfony.com/doc/5.4/controller.html#a-basic-controller
+1- https://symfony.com/doc/5.4/controller.html#a-basic-controller
 ```
 
