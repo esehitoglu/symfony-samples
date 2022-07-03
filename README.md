@@ -40,11 +40,11 @@ adresine gidiyoruz.
 
 When using the foo.bar notation, Twig tries to get the value of the variable in the following order:
 
-$foo['bar'] (array and element);
-$foo->bar (object and public property);
-$foo->bar() (object and public method);
-$foo->getBar() (object and getter method);
-$foo->isBar() (object and isser method);
-$foo->hasBar() (object and hasser method);
+# $foo['bar'] (array and element);
+# $foo->bar (object and public property);
+# $foo->bar() (object and public method);
+# $foo->getBar() (object and getter method);
+# $foo->isBar() (object and isser method);
+# $foo->hasBar() (object and hasser method);
 If none of the above exists, use null (or throw a Twig\Error\RuntimeError exception if the strict_variables option is enabled).
 
