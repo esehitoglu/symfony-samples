@@ -39,6 +39,7 @@ class RequestResponse
         return $response;
     }
 
+    // POSTMAN DE POST İLE GİDİYORUZ
     /**
      * @Route("/lucky/post/{max}", name="app_post", methods={"POST"})
      */
