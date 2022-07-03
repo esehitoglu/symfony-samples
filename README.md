@@ -33,6 +33,7 @@ adresine gidiyoruz.
 ![image](https://user-images.githubusercontent.com/28044809/177030344-ab47c7cb-560f-442e-83a6-ee0de05976db.png)
 
 <h3>Templates</h3>
+
 ```node
 3- https://symfony.com/doc/5.4/templates.html
 ```
