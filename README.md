@@ -55,3 +55,10 @@ When using the foo.bar notation, Twig tries to get the value of the variable in 
 ```
 
 ![image](https://user-images.githubusercontent.com/28044809/179401247-b5474b8d-ee4b-4c2a-a6a7-b3449621c190.png)
+
+<h3>Veri tabanı işlemleri</h3>
+
+```node
+4- https://symfony.com/doc/5.4/doctrine.html
+```
+
