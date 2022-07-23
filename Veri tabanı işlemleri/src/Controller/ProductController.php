@@ -6,12 +6,13 @@ namespace App\Controller;
 // ...
 use App\Entity\Product;
 use Doctrine\Persistence\ManagerRegistry;
-use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use App\Entity\Task;
-use Symfony\Component\HttpFoundation\JsonResponse;
+
 use App\Repository\ProductRepository;
 
 class ProductController extends AbstractController
@@ -45,9 +46,13 @@ class ProductController extends AbstractController
         $this->productRepository = $productRepository;
     }
 
-    #[Route('/add', name: 'veri_ekle')]
+
+    /**
+     * @Route("/add", name="data_add")
+     */
     public function dataAdd(Request $request): JsonResponse
     {
+        //dd('asdasd');
         $request = $request->toArray();
         $product = new Product();
         //$time = new \DateTime();
